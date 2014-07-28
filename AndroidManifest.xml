@@ -14,21 +14,18 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.example.originalaso2014002.MainActivity"
-            android:label="@string/app_name" >
+            android:label="@string/app_name" android:name="com.example.originalaso2014002.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.originalaaso2014002.HitokotoActivity" android:label="@string/app_name">
-        	<intent-filter>
-        		<action android:name="android.intent.action.MAIN"></action>
-        		<category android:name="android.intent.category.LAUNCHER"></category></intent-filter></activity>
-        <activity android:name="com.example.originalaso2014002.MaintenanceActivity" android:label="@string/app_name">
-        	<intent-filter>
-        		<action android:name="android.intent.action.MAIN"></action>
-        		<category android:name="android.intent.category.LAUNCHER"></category></intent-filter></activity></application>
+        <activity android:label="@string/app_name" android:name="com.example.originalaso2014002.HitokotoActivity">
+        	</activity>
+        <activity android:label="@string/app_name" android:name="com.example.originalaso2014002.MaintenanceActivity">
+        	</activity>
+        <activity android:label="@string/app_name" android:name="com.example.originalaso2014002.MySQLiteOpenHelper">
+        	</activity></application>
 
 </manifest>
